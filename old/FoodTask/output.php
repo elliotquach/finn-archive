@@ -20,11 +20,6 @@
     // evaluate whether or not user is elliable for coupon 
     $elligableForCoupon = $age > 15 ? True : False;
 
-    $elligableForCoupon = False;
-    if ($age > 15) {
-        $elligableForCoupon = True;
-    }
-
     if ($elligableForCoupon) {
         echo "<div class=\"result\">
             <h2>Here's a special offer just for you!</h2>
