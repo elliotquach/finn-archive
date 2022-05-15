@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+  </head>
+  <body>
+    <form action="/weeks/8/output.php" method="POST">
+      <label for="name_first">Given Name:</label><br>
+      <input type="text" name="name_first" required><br>
+      <label for="name_last">Family Name:</label><br>
+      <input type="text" name="name_last" required><br>
+      <label for="email">Email:</label><br>
+      <input type="email" name="email" required><br>
+      <label for="email_type">Email type:</label><br>
+      <select name="email_type">
+        <option value="personal">Personal</option>
+        <option value="school">School</option>
+        <option value="business">Business</option>
+      </select><br>
+      <label for="date_of_birth">Date of birth:</label><br>
+      <input type="date" name="date_of_birth"><br>
+      <input type="submit">
+    </form>
+  </body>
+</html>
